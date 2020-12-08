@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+<head>
+  
+<title>Christopher-verkkosivut</title>
+
+<meta charset = "UTF-8" />
+
+<link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css integrity=sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm crossorigin=anonymous>
+
+<link rel=stylesheet href=stylesheet.css />
+
+</head>
+<body>
+
+
+
+<nav class="navbar navbar-expand-sm bg-light navbar-light">
+<div class=logo>
+<a class="navbar-brand" href=index.html>Louis The Cat</a>
+</div>  
+<ul class="navbar-nav">
+<li class="nav-item">
+<a class="nav-link" href=index.html>Etusivu</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href=second.html>Sosiaalinen media</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href=Third.html>Ota yhteyttä</a>
+</li>
+</ul>
+<a class="btn btn-primary" href=Login.html role="button">Kirjaudu/Rekisteröidy</a>
+</nav>
+
+<form action="/action_page.php" method="post">
+
+  <div class="container5">
+<h2>Kirjaudu sisään</h2>
+    <label for="uname"><b>Käyttäjänimi</b></label>
+    <input type="text" placeholder="Syötä Käyttäjänimesi" name="uname" id=uname required>
+
+    <label for="psw"><b>Salasana</b></label>
+    <input type="text" placeholder="Syötä salasanasi" name="psw" id=psw required>
+        
+    <button type="submit">Kirjaudu</button>
+    <label>
+      <input type="checkbox" checked="checked" name="muista minut">Muista minut
+    </label>
+  </div>
+
+  
+</form>
+
+<form action="/action_page.php">
+  <div class="container1">
+    <h1>Rekisteröidy</h1>
+    <p>Luo käyttäjätunnuksesi</p>
+    <hr>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Syötä Email" name="email" id="email" required>
+
+    <label for="sls"><b>Salasana</b></label>
+    <input type="text" placeholder="Syötä salasana" name="sls" id="sls" required>
+
+    <label for="sls2"><b>Vahvista salasanasi</b></label>
+    <input type="text" placeholder="Vahvista salasanasi" name="sls2" id="sls2" required>
+    <hr>
+    
+    <button type="submit" class="rekisteröidy">Rekisteröidy</button>
+  </div>
+  
+  
+</form>
+
+
+
+
+
+
+<div class="footer">
+<p> COPYRIGHT &#169; CHRISTOPHER GUL </p>
+</div>
+
+
+
+
+    <script src=https://code.jquery.com/jquery-3.2.1.slim.min.js integrity=sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN crossorigin=anonymous></script>
+
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js integrity=sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q crossorigin=anonymous></script>
+
+    <script src=https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js integrity=sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl crossorigin=anonymous></script>
+</body>
+</html>
