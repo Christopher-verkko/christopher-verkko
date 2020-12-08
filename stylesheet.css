@@ -1,0 +1,119 @@
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: black;
+  text-align: center;
+border: 1px solid grey;
+font-family: helvetica;
+}
+
+#demo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+margin-bottom: 50px;
+border: 5px solid gold;
+}
+
+.indextext { color: white;
+font-family: lucida handwriting;
+Margin-top: 100px;
+font-size: 45px;
+text-shadow: 2px 2px #ff0000;
+ }
+
+
+
+.form-control { margin-left: 680px;
+margin-right: 0px;
+Margin-top: 90px;
+position: fixed; 
+width: 500px;}
+
+
+.KAIKKI { margin-top: 400px;
+color: white;
+font-size: 35px;
+ text-shadow: 3px 3px 5px #000000;
+margin-bottom: 50px;
+}
+
+
+
+
+body {
+  background: url(https://cdn.wallpapersafari.com/96/25/3sXjGW.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+a {
+  color: red;
+
+}
+
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: grey;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: black;
+}
+
+.container {
+  background-color: pink;
+ margin-top: 40px;
+margin-bottom: 50px;
+}
+
+
+.column {
+  float: left;
+  margin-top: 6px;
+  padding: 20px;
+}
+.container1 {
+
+  padding: 16px;
+  background-color: white;
+width: 100%;
+margin: 70px 0px;
+}
+.container5 {
+  padding: 16px;
+  background-color: white;
+width: 100%;
+margin: 50px 0px;
+
+}
+
+iframe { 
+ position: absolute;
+  left: 370px;
+  top: 100px;
+border: 5px solid #ccc;
+
+  }
+
